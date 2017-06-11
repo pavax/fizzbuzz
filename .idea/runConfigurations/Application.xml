@@ -1,0 +1,16 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+    <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+      <pattern>
+        <option name="PATTERN" value="com.mimacom.training.fizzbuzz.*" />
+        <option name="ENABLED" value="true" />
+      </pattern>
+    </extension>
+    <option name="SPRING_BOOT_MAIN_CLASS" value="com.mimacom.training.fizzbuzz.Application" />
+    <option name="DEBUG_MODE" value="true" />
+    <option name="ALTERNATIVE_JRE_PATH" />
+    <module name="fizzbuzz" />
+    <envs />
+    <method />
+  </configuration>
+</component>

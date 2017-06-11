@@ -5,6 +5,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import java.util.Arrays;
 import java.util.List;
 
 @Controller
@@ -20,6 +21,6 @@ public class FizzBuzzController {
     @GetMapping
     public List<String> get() {
         //return fizzBuzzService.compute(1, 100);
-        return null;
+        return Arrays.asList("test","result");
     }
 }
